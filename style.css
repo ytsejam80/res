@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'olneylight';
+    src: url('olney_light-webfont.woff2') format('woff2'),
+         url('olney_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+font-family: 'olneylight';
+font-size: 12px;	
+}
+#wrapper{
+	height:311px;
+ 	width:273px;	
+	border:#B9B4B4 thin solid;	
+}
+.logo{
+
+}
+p{
+margin-left: 6px;		
+}
+.name{
+font-size: 16px;	
+}
+.position{
+margin-top:-18px;
+font-size: 16px;	
+}
+span{
+color: #0a93c7;	
+}
+a{
+text-decoration: none;	
+color:#0a93c7
+}
+a:hover {
+    color: hotpink;
+}
+a:visited {
+    color: #551A8B;
+}
+/* selected link */
+a:active {
+    color: #0a93c7;
+}
+
